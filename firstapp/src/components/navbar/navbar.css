@@ -12,23 +12,23 @@
 
 .topCenter
 {
-    flex: 6;
+    flex: 0;
 }
 
 .topLeft
 {
-    flex: 3;
+    flex: 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
 }
 
 .topRight
 {
-    flex: 4;
+    flex: 1;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
+    justify-content: right;
 }
 
 .topNavList, .topLoginList
@@ -48,11 +48,22 @@
     font-weight: 300;
     cursor: pointer;
 }
+
+.navListItem2
+{
+    color: #ffffff;
+    margin-right: 25px;
+    font-size: 23px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
 .topPfpImg
 {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     object-fit: cover;
     border: 2px solid #ffffff;
     border-radius: 50%;
+    margin-right: 25px;
 }

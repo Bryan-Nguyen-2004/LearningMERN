@@ -24,13 +24,13 @@ export default function NavBar() {
             <div className = "topRight"> 
                 <img className='topPfpImg' src='/images/default_pfp.png' alt ='/images/icons/default_pfp.png' />
                 <ul className = "topLoginList">
-                    <li className='navListItem'>
+                    <li className='navListItem2'>
                         Login
                     </li>
-                    <li className='navListItem'>
+                    <li className='navListItem2'>
                         Logout
                     </li>
-                    <li className='navListItem'>
+                    <li className='navListItem2'>
                         Create Account
                     </li>
                 </ul>

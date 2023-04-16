@@ -1,0 +1,80 @@
+.post
+{
+    width: 23%;
+    margin: 0px 25px 15px 25px;
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    flex-direction: column;
+}
+
+.postSummary
+{
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #46374d;
+    margin-top: 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+}
+
+.postImg
+{
+    object-fit: cover;
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.postTitle
+{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.postCat {
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 10px;
+    color: #46374d;
+    font-size: 13px;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #000000;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: 100%;
+}
+
+.postDate {
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.postInfo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
