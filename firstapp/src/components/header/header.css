@@ -1,0 +1,26 @@
+
+
+.headerTitles
+{
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerImg
+{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border: 2px solid #ffffff;
+}
+
+.headerTitle1
+{
+    position: absolute;
+    top: 20%;
+    font-size: 150px;
+    color:  #ffffff;
+}
