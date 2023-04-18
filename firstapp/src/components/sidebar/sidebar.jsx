@@ -7,13 +7,13 @@ export default function NavBar() {
             <div className="sideBarItems">
                 <div className="sideBarItem">
                     <img src="/images/sidebar.png" alt="logo" />
-                    <span className="sideBarTitle"> ABOUT SECTION </span>
+                    <span className="sideBarTitle"> [About] </span>
                     <p className="sideBarAbout"> 
                         BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH LOOK AT RECORDS WOW
                     </p>
                 </div>
                 <div className="sideBarItem">
-                    <span className="sideBarTitle"> Categories </span>
+                    <span className="sideBarTitle"> [Categories] </span>
                     <ul className="sideBarList">
                         <li className='sideBarListItem'>
                             cat1

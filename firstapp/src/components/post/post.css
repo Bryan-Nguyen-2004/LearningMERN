@@ -1,10 +1,11 @@
 .post
 {
-    margin: 0px 25px 15px 25px;
+    margin: 0px 25px 0px 25px;
     display: flex;
     font-family: 'Oswald', sans-serif;
     flex-direction: column;
     width: 210px;
+    
 }
 
 .postSummary
@@ -15,6 +16,7 @@
     font-weight: 300;
     color: #46374d;
     margin-top: 1px;
+    margin-bottom: 0px;
     overflow: hidden;
     text-overflow: ellipsis;
     text-align: left;
@@ -30,6 +32,7 @@
     margin: 0px;
     margin-bottom: 10px;
     margin-top: 20px;
+    height:fit-content;
 }
 
 .postTitle

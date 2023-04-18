@@ -7,16 +7,16 @@ export default function NavBar() {
             <div className = "topLeft"> 
                 <ul className = "topNavList">
                     <li className='navListItem'>
-                        Home
+                        [Home]
                     </li>
                     <li className='navListItem'>
-                        About
+                        [About]
                     </li>
                     <li className='navListItem'>
-                        Contact
+                        [Contact]
                     </li>
                     <li className='navListItem'>
-                        Write
+                        [Write]
                     </li>
                 </ul>
             </div>
@@ -25,13 +25,13 @@ export default function NavBar() {
                 <img className='topPfpImg' src='/images/default_pfp.png' alt ='/images/icons/default_pfp.png' />
                 <ul className = "topLoginList">
                     <li className='navListItem2'>
-                        Login
+                        [Login]
                     </li>
                     <li className='navListItem2'>
-                        Logout
+                        [Logout]
                     </li>
                     <li className='navListItem2'>
-                        Create Account
+                        [Create Account]
                     </li>
                 </ul>
             </div>

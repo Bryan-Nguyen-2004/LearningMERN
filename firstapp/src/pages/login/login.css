@@ -1,0 +1,63 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( rgba(255, 255, 255, 0.137), rgba(255, 255, 255, 0.137) ), url("https://cdn.wallpapersafari.com/25/4/TARz5i.jpg");
+    background-size: cover;
+    height: calc(100vh - 50px);
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+}
+
+.loginTitle {
+    font-size: 155px;
+}
+
+.loginForm {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+    .loginForm > label {
+        margin: 10px 0;
+        font-size: 30px;
+    }
+
+.loginInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+.loginLoginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.loginButton {
+    background-color: black;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.loginButton:disabled
+{
+    cursor:not-allowed;
+    background-color: rgba(255, 255, 255, 0.4);
+}

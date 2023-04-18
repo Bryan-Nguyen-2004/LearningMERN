@@ -1,5 +1,6 @@
 .uniquePost {
     flex: 10;
+    width: 70%;
 }
 
 .editPost {
@@ -52,6 +53,13 @@
     font-size: 20px;
     color: #46374d;
     line-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 14.4em;
+    line-height: 1.8em;
+    display: block;
+    word-wrap: normal;
+    text-align: left;
 }
 
 .uniquePostDescription::first-letter {

@@ -24,7 +24,9 @@ export default function UniquePost() {
                         </span>
                     </div>
 
-                    <p className="uniquePostDescription">gewfqfufeqwgfgeyuguyfeguyeqfguyfeguyefuygewfuyewfuyuyefuyefuyeqwfuyewfquyuyefquyefwuyefwquyfewuyefwuyewfquy</p>
+                    <p className="uniquePostDescription">
+                        BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH 
+                    </p>
                 </div>
             </div>
         </>
