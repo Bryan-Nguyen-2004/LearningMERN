@@ -1,0 +1,8 @@
+.posts {
+    flex: 10;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Oswald', sans-serif;
+    margin: 20px;
+    row-gap: 10px;
+}

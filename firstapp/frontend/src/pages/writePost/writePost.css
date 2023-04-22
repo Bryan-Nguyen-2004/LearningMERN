@@ -1,0 +1,85 @@
+.writePostPage {
+    display:flex;
+    background: linear-gradient( rgba(255, 255, 255, 0.137), rgba(255, 255, 255, 0.137) ), url("https://cdn.wallpapersafari.com/25/4/TARz5i.jpg");
+}
+
+.writePost {
+    padding-top: 40px;
+}
+
+.writePostForm {
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+}
+
+.writePostText {
+    width: 65vw;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+    height: 66vh;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+.writePostGroup {
+    padding-top: 20px;
+    margin-left: 50px;
+    padding-right:50px;
+    align-items: center;
+    display: flex;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+}
+
+.writePostInput {
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+    border: solid;
+}
+
+.writePostSubmit {
+    position: relative;
+    top: 30px;
+    border-radius: 5px;
+    display: flex;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+    color: black;
+    background-color: #f41316;
+    padding: 10px;
+    right: 0px;
+    left: 50px;
+    font-size: 25px;
+    cursor: pointer
+        
+}
+
+.writePostInput:focus {
+    outline-style: none;
+}
+
+.writePostInput::placeholder {
+    color: #575757;
+    font-weight: 500;
+}
+
+
+.writePostIcon {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 15px;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.writeImage {
+    margin-left: 18vw;
+    width: 40vw;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+}

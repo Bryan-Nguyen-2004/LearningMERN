@@ -1,0 +1,27 @@
+.home
+{
+    display: flex;
+    height:fit-content;
+}
+
+.videos
+{
+    width: 22vw;
+    border: 1px solid black;
+}
+
+.video
+{
+    margin-top: 5px;
+    width:100%;
+}
+
+.zoomer
+{
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+    font-size: 30px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    font-weight: bold;
+    text-align: center;
+}

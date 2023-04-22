@@ -1,1 +1,3 @@
-/firstapp/node_modules/
+/firstapp/backend/node_modules/
+/firstapp/frontend/node_modules/
+/firstapp/backend/.env
